@@ -1,0 +1,22 @@
+# Entornos virtuales
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.pyc
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Bases vectoriales locales
+chroma_db/
+*.sqlite3
+
+# Secretos (nunca subir claves)
+.env
+
+# Editor / sistema
+.vscode/
+.DS_Store

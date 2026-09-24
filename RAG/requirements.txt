@@ -1,0 +1,13 @@
+# Dependencias del lab 01 (RAG local con Ollama).
+# Sin versiones fijadas a propósito: LangChain cambia rápido. Para reproducir EXACTAMENTE
+# tu entorno, genera un lock con:  pip freeze > requirements-lock.txt
+ipykernel            # necesario para usar el notebook en VS Code (o instala 'jupyter' si prefieres el navegador)
+langchain
+langchain-core
+langchain-community
+langchain-text-splitters
+langchain-chroma
+langchain-classic    # RetrievalQA, ConversationalRetrievalChain, ConversationBufferMemory
+langchain-ollama
+chromadb
+wget
